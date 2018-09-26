@@ -1,0 +1,14 @@
+After Creating a New REPO on github. We can do the followings to add the remote github as
+origin to our git local
+
+…or create a new repository on the command line
+echo "# BHDDOCS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/bhdninh/BHDDOCS.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/bhdninh/BHDDOCS.git
+git push -u origin master
